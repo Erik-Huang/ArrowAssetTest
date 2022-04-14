@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1815cd1fc61e6468ecdb7a5e791fbe, type: 3}
+  m_Name: MyPointPathTip
+  m_EditorClassIdentifier: 
+  size: {x: 0.2, y: 0.4, z: 0.2}
+  arrowTipMode: 2
+  levelOfDetailAlongPath: 10
+  arrowTipPathType: 0
+  pathAlongXFunctionLength: 1
+  pathAlongXFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pathAlongYFunctionLength: 3
+  pathAlongYFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pathAlongZFunctionLength: 1
+  pathAlongZFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  widthFunctionLength: 1
+  widthFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  heightFunctionLength: 1
+  heightFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationFunctionLength: 1
+  rotateFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  templatePrimitives: {fileID: 11400000, guid: 36761972cc5a29a429e050f93a5af79b, type: 2}
+  shapeFunctionLength: 1
+  shapeFunction:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.0972719
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1.0972719
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  mesh: {fileID: 0}
+  extrudePoints:
+  - e00: 0.000000023841858
+    e01: 0.9999999
+    e02: 0
+    e03: 9.6
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.19999997
+    e13: 0
+    e20: -0.19999997
+    e21: 0
+    e22: 0.000000023841858
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.000000021457671
+    e01: 0.9999999
+    e02: 0
+    e03: 9.64
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.17999998
+    e13: 0
+    e20: -0.17999998
+    e21: 0
+    e22: 0.000000021457671
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.000000019073488
+    e01: 0.9999999
+    e02: 0
+    e03: 9.68
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.16
+    e13: 0
+    e20: -0.16
+    e21: 0
+    e22: 0.000000019073488
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.0000000166893
+    e01: 0.9999999
+    e02: 0
+    e03: 9.72
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.13999999
+    e13: 0
+    e20: -0.13999999
+    e21: 0
+    e22: 0.0000000166893
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.000000015894571
+    e01: 0.9999999
+    e02: 0
+    e03: 9.733334
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.13333331
+    e13: 0
+    e20: -0.13333331
+    e21: 0
+    e22: 0.000000015894571
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.000000013510387
+    e01: 0.9999999
+    e02: 0
+    e03: 9.773334
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.11333332
+    e13: 0
+    e20: -0.11333332
+    e21: 0
+    e22: 0.000000013510387
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.0000000111261995
+    e01: 0.9999999
+    e02: 0
+    e03: 9.8133335
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.09333332
+    e13: 0
+    e20: -0.09333332
+    e21: 0
+    e22: 0.0000000111261995
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.000000008742015
+    e01: 0.9999999
+    e02: 0
+    e03: 9.853333
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.07333333
+    e13: 0
+    e20: -0.07333333
+    e21: 0
+    e22: 0.000000008742015
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.0000000063578285
+    e01: 0.9999999
+    e02: 0
+    e03: 9.893333
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.053333323
+    e13: 0
+    e20: -0.053333323
+    e21: 0
+    e22: 0.0000000063578285
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.0000000039736436
+    e01: 0.9999999
+    e02: 0
+    e03: 9.933333
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.033333335
+    e13: 0
+    e20: -0.033333335
+    e21: 0
+    e22: 0.0000000039736436
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.0000000015894571
+    e01: 0.9999999
+    e02: 0
+    e03: 9.973333
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0.013333331
+    e13: 0
+    e20: -0.013333331
+    e21: 0
+    e22: 0.0000000015894571
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0
+    e01: 0.9999999
+    e02: 0
+    e03: 10
+    e10: 0
+    e11: 0.00000011920929
+    e12: -0
+    e13: 0
+    e20: -0
+    e21: 0
+    e22: 0
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  openClosed: 000000000100000001000000010000000100000001000000010000000100000001000000010000000100000002000000
+  primitives:
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  - {fileID: 11400000, guid: 66da3176711c74444bd41a236d6348bc, type: 2}
+  direction: 1
+  path:
+  - {x: 9.6, y: 0, z: 0}
+  - {x: 9.64, y: 0, z: 0}
+  - {x: 9.68, y: 0, z: 0}
+  - {x: 9.72, y: 0, z: 0}
+  - {x: 9.733334, y: 0, z: 0}
+  - {x: 9.773334, y: 0, z: 0}
+  - {x: 9.8133335, y: 0, z: 0}
+  - {x: 9.853333, y: 0, z: 0}
+  - {x: 9.893333, y: 0, z: 0}
+  - {x: 9.933333, y: 0, z: 0}
+  - {x: 9.973333, y: 0, z: 0}
+  - {x: 10, y: 0, z: 0}
+  start: {x: 9.6, y: 0, z: 0}
+  end: {x: 10, y: 0, z: 0}
+  invalidTip: 0
+  defaultRotateAngle: 0

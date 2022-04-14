@@ -16,8 +16,8 @@ namespace Cogobyte.ProceduralIndicators
             {
                 updateArrow();
                 Debug.Log("Arrow is updated.");
-                Vector3 newStartPoint = new Vector3(Random.Range(-1, 1), Random.Range(-1, -1), Random.Range(-1, 1));
-                arrowPath.startPoint = newStartPoint;
+                //Vector3 newStartPoint = new Vector3(Random.Range(-1, 1), Random.Range(-1, -1), Random.Range(-1, 1));
+                //arrowPath.startPoint = newStartPoint;
             }
             
         }
